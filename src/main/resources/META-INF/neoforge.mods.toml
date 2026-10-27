@@ -1,0 +1,23 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "blackclover"
+version = "0.1.0"
+displayName = "Black Clover: Grimoire Chronicles"
+description = '''Mod RPG de fã inspirado em Black Clover. Versão inicial: mana, atributos e o corte Demon-Slayer.'''
+
+[[dependencies.blackclover]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.blackclover]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
